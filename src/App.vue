@@ -89,25 +89,14 @@
                     <!--$-->
                     <div id="comp-kt6tx3tj" class="MazNVa comp-kt6tx3tj wixui-image">
                       <div data-testid="linkElement" class="j7pOnl">
-                        <wow-image
-                          id="img_comp-kt6tx3tj"
-                          class="HlRz5e BI8PVQ"
-                          data-image-info='{"containerId":"comp-kt6tx3tj","displayMode":"fill","targetWidth":240,"targetHeight":128,"isLQIP":false,"encoding":"AVIF","imageData":{"width":1400,"height":1000,"uri":"3ee397_3df8d3fed74946c6be72f4841cd340c5~mv2.jpg","name":"логотип тико групп.jpg","displayMode":"fill","hasAnimation":false}}'
-                          data-motion-part="BG_IMG comp-kt6tx3tj"
-                          data-bg-effect-name=""
-                          data-has-ssr-src=""
-                          ><img
-                            src="https://static.wixstatic.com/media/3ee397_3df8d3fed74946c6be72f4841cd340c5~mv2.jpg/v1/fill/w_240,h_128,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%20%D1%82%D0%B8%D0%BA%D0%BE%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF.jpg"
-                            alt="логотип тико групп.jpg"
-                            style="width: 240px; height: 128px; object-fit: cover"
-                            width="240"
-                            height="128"
-                            srcSet="https://static.wixstatic.com/media/3ee397_3df8d3fed74946c6be72f4841cd340c5~mv2.jpg/v1/fill/w_240,h_128,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%20%D1%82%D0%B8%D0%BA%D0%BE%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF.jpg 1x, https://static.wixstatic.com/media/3ee397_3df8d3fed74946c6be72f4841cd340c5~mv2.jpg/v1/fill/w_480,h_256,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%20%D1%82%D0%B8%D0%BA%D0%BE%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF.jpg 2x"
-                            fetchpriority="high"
-                        /></wow-image>
+                        <img
+                          src="./assets/logo.jpg"
+                          alt="Логотип тико групп"
+                          width="240"
+                          height="128"
+                        />
                       </div>
                     </div>
-                    <!--/$--><!--$-->
                     <div class="comp-ku3u4yr9 m14IQl" id="comp-ku3u4yr9" aria-disabled="false">
                       <a
                         data-testid="linkElement"
