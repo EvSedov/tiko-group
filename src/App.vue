@@ -1,33 +1,32 @@
 <script setup lang="ts">
-const bodyCacheable = true
+// const bodyCacheable = true
+// const exclusionReason = { shouldRender: true, forced: false }
+// const ssrInfo = {
+//   cacheExclusionReason: '',
+//   renderBodyTime: 813,
+//   renderTimeStamp: 1743411094416,
+// }
 
-const exclusionReason = { shouldRender: true, forced: false }
-const ssrInfo = {
-  cacheExclusionReason: '',
-  renderBodyTime: 813,
-  renderTimeStamp: 1743411094416,
-}
-
-if (
-  window.ResizeObserver &&
-  (!window.PerformanceObserver ||
-    !PerformanceObserver.supportedEntryTypes ||
-    PerformanceObserver.supportedEntryTypes.indexOf('paint') === -1)
-) {
-  new ResizeObserver(function (entries, observer) {
-    entries.some(function (entry) {
-      const contentRect = entry.contentRect
-      if (contentRect.width > 0 && contentRect.height > 0) {
-        requestAnimationFrame(function (now) {
-          window.wixFirstPaint = now
-          dispatchEvent(new CustomEvent('wixFirstPaint'))
-        })
-        observer.disconnect()
-        return true
-      }
-    })
-  }).observe(document.body)
-}
+// if (
+//   window.ResizeObserver &&
+//   (!window.PerformanceObserver ||
+//     !PerformanceObserver.supportedEntryTypes ||
+//     PerformanceObserver.supportedEntryTypes.indexOf('paint') === -1)
+// ) {
+//   new ResizeObserver(function (entries, observer) {
+//     entries.some(function (entry) {
+//       const contentRect = entry.contentRect
+//       if (contentRect.width > 0 && contentRect.height > 0) {
+//         requestAnimationFrame(function (now) {
+//           window.wixFirstPaint = now
+//           dispatchEvent(new CustomEvent('wixFirstPaint'))
+//         })
+//         observer.disconnect()
+//         return true
+//       }
+//     })
+//   }).observe(document.body)
+// }
 </script>
 
 <template>
@@ -3287,7 +3286,7 @@ if (
                                                 class="KvoMHf has-custom-focus wixui-text-input__input"
                                                 type="text"
                                                 placeholder="Имя"
-                                                required=""
+                                                required
                                                 aria-required="true"
                                                 aria-invalid="true"
                                                 maxLength="100"
@@ -3309,7 +3308,7 @@ if (
                                                 class="KvoMHf has-custom-focus wixui-text-input__input"
                                                 type="email"
                                                 placeholder="Эл. почта"
-                                                required=""
+                                                required
                                                 aria-required="true"
                                                 aria-invalid="true"
                                                 pattern="^.+@.+\.[a-zA-Z]{2,63}$"
