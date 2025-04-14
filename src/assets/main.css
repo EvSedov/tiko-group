@@ -6738,11 +6738,6 @@ wix-media-canvas {
   --above-all-in-container: 49;
 }
 
-#SITE_FOOTER {
-  --pinned-layer-in-container: 54;
-  --above-all-in-container: 49;
-}
-
 [id='soapAfterPagesContainer'].page-without-sosp
   [data-mesh-id='soapAfterPagesContainerinlineContent'] {
   height: auto;
@@ -8643,70 +8638,6 @@ wix-media-canvas {
   --align: start;
   --menu-align: inherit;
   --submenus-align: inherit;
-}
-
-#SITE_FOOTER {
-  --bg: 0, 0, 0;
-  --shd: none;
-  --brwt: 0px;
-  --brd: 160, 160, 159;
-  --brwb: 0px;
-  --bgctr: 0, 0, 0;
-  --rd: 0px;
-  --boxShadowToggleOn-shd: none;
-  --alpha-brd: 1;
-  --alpha-bgctr: 1;
-  --alpha-bg: 1;
-}
-
-#SITE_FOOTER {
-  left: 0;
-  margin-left: 0;
-  width: 100%;
-  min-width: 0;
-}
-
-[data-mesh-id='SITE_FOOTERinlineContent'] {
-  height: auto;
-  width: 100%;
-}
-
-[data-mesh-id='SITE_FOOTERinlineContent-gridContainer'] {
-  position: static;
-  display: grid;
-  height: auto;
-  width: 100%;
-  min-height: auto;
-  grid-template-rows: 1fr;
-  grid-template-columns: 100%;
-}
-
-[data-mesh-id='SITE_FOOTERinlineContent-gridContainer'] > [id='WRchTxt1g'] {
-  position: relative;
-  margin: 10px 0px 31px calc((100% - 980px) * 0.5);
-  left: 10px;
-  grid-area: 1 / 1 / 2 / 2;
-  justify-self: start;
-  align-self: start;
-}
-
-#SITE_FOOTER {
-  --shc-mutated-brightness: 0, 0, 0;
-  --bg-overlay-color: transparent;
-  --bg-gradient: none;
-}
-
-#WRchTxt1g {
-  --backgroundColor: 0, 0, 0;
-  --alpha-backgroundColor: 0;
-  --blendMode: normal;
-  --textShadow: 0px 0px transparent;
-  --textOutline: 0px 0px transparent;
-}
-
-#WRchTxt1g {
-  width: 958px;
-  height: auto;
 }
 
 @font-face {
