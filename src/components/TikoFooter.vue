@@ -4,9 +4,9 @@
       <div class="_4XcTfy" data-testid="screenWidthContainerBg"></div>
     </div>
     <div class="U4Bvut">
-      <div class="G5K6X8">
+      <!--<div class="G5K6X8">
         <div class="gUbusX" data-testid="screenWidthContainerBgCenter"></div>
-      </div>
+      </div>-->
       <div class="CJF7A2">
         <div data-mesh-id="SITE_FOOTERinlineContent" data-testid="inline-content" class="">
           <div
@@ -67,19 +67,12 @@
   --alpha-brd: 1;
   --alpha-bgctr: 1;
   --alpha-bg: 1;
-}
-
-#SITE_FOOTER {
-  left: 0;
-  margin-left: 0;
-  width: 100%;
-  min-width: 0;
-}
-
-#SITE_FOOTER {
   --shc-mutated-brightness: 0, 0, 0;
   --bg-overlay-color: transparent;
   --bg-gradient: none;
+  width: 100%;
+  min-width: 0;
+  background-color: black;
 }
 
 [data-mesh-id='SITE_FOOTERinlineContent'] {
@@ -115,7 +108,7 @@
 }
 
 #WRchTxt1g {
-  margin: 20px auto;
+  margin-top: 20px;
   width: 958px;
   height: auto;
 }
