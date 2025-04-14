@@ -16,7 +16,7 @@
             <!--$-->
             <div id="comp-kt6tx3tj" class="MazNVa comp-kt6tx3tj wixui-image">
               <div data-testid="linkElement" class="j7pOnl">
-                <img src="./assets/logo.jpg" alt="Логотип тико групп" width="240" height="128" />
+                <img src="../assets/logo.jpg" alt="Логотип тико групп" width="240" height="128" />
               </div>
             </div>
             <div class="comp-ku3u4yr9 m14IQl" id="comp-ku3u4yr9" aria-disabled="false">
