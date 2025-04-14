@@ -1560,7 +1560,7 @@ import TikoHeader from './components/TikoHeader.vue'
                                         <!--/$--><!--$-->
                                         <div
                                           id="comp-ku28u2tb"
-                                          class="comp-ku28u2tb aVng1S wixui-horizontal-line"
+                                          class="comp-ku28u2tb horizontal-line"
                                         ></div>
                                         <!--/$-->
                                       </div>
@@ -1734,7 +1734,7 @@ import TikoHeader from './components/TikoHeader.vue'
                                         <!--/$--><!--$-->
                                         <div
                                           id="comp-ku28u2wu"
-                                          class="comp-ku28u2wu aVng1S wixui-horizontal-line"
+                                          class="comp-ku28u2wu horizontal-line"
                                         ></div>
                                         <!--/$--><!--$-->
                                         <div
@@ -1827,7 +1827,7 @@ import TikoHeader from './components/TikoHeader.vue'
                                         <!--/$--><!--$-->
                                         <div
                                           id="comp-ku28u2xc"
-                                          class="comp-ku28u2xc aVng1S wixui-horizontal-line"
+                                          class="comp-ku28u2xc horizontal-line"
                                         ></div>
                                         <!--/$--><!--$-->
                                         <div
@@ -1864,7 +1864,7 @@ import TikoHeader from './components/TikoHeader.vue'
                                         <!--/$--><!--$-->
                                         <div
                                           id="comp-ku28u2y4"
-                                          class="comp-ku28u2y4 aVng1S wixui-horizontal-line"
+                                          class="comp-ku28u2y4 horizontal-line"
                                         ></div>
                                         <!--/$--><!--$-->
                                         <div
@@ -2115,7 +2115,7 @@ import TikoHeader from './components/TikoHeader.vue'
                                         <!--/$--><!--$-->
                                         <div
                                           id="comp-ku28u2yv"
-                                          class="comp-ku28u2yv aVng1S wixui-horizontal-line"
+                                          class="comp-ku28u2yv horizontal-line"
                                         ></div>
                                         <!--/$--><!--$-->
                                         <div
@@ -2276,7 +2276,7 @@ import TikoHeader from './components/TikoHeader.vue'
                                         <!--/$--><!--$-->
                                         <div
                                           id="comp-louyle8y"
-                                          class="comp-louyle8y aVng1S wixui-horizontal-line"
+                                          class="comp-louyle8y horizontal-line"
                                         ></div>
                                         <!--/$--><!--$-->
                                         <div
@@ -2437,7 +2437,7 @@ import TikoHeader from './components/TikoHeader.vue'
                                         <!--/$--><!--$-->
                                         <div
                                           id="comp-louym75j"
-                                          class="comp-louym75j aVng1S wixui-horizontal-line"
+                                          class="comp-louym75j horizontal-line"
                                         ></div>
                                         <!--/$--><!--$-->
                                         <div
@@ -2820,5 +2820,11 @@ import TikoHeader from './components/TikoHeader.vue'
 <style scoped>
 #comp-ku28u35u {
   visibility: hidden !important;
+}
+
+.horizontal-line {
+  border-top: var(--lnw, 2px) solid rgba(var(--brd, var(--color_15, color_15)), var(--alpha-brd, 1));
+  box-sizing: border-box;
+  height: 0;
 }
 </style>

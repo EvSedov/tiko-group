@@ -1,12 +1,6 @@
 <template>
   <header id="SITE_HEADER" class="xU8fqS SITE_HEADER wixui-header" tabindex="-1">
-    <div class="_C0cVf">
-      <div class="_4XcTfy" data-testid="screenWidthContainerBg"></div>
-    </div>
-    <div class="U4Bvut">
-      <div class="G5K6X8">
-        <div class="gUbusX" data-testid="screenWidthContainerBgCenter"></div>
-      </div>
+    <div class="U4Bvut _4XcTfy">
       <div class="CJF7A2">
         <div data-mesh-id="SITE_HEADERinlineContent" data-testid="inline-content" class="">
           <div
@@ -304,13 +298,85 @@
               >
             </div>
             <!--/$--><!--$-->
-            <div id="comp-kt8ru4l5" class="comp-kt8ru4l5 aVng1S wixui-horizontal-line"></div>
             <!--/$-->
           </div>
         </div>
       </div>
     </div>
+    <div id="comp-kt8ru4l5" class="comp-kt8ru4l5 horizontal-line"></div>
   </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+#SITE_HEADER {
+  --above-all-in-container: 10000;
+  --bg: 255, 255, 255;
+  --shd: none;
+  --brwt: 0px;
+  --brd: 47, 46, 46;
+  --brwb: 0px;
+  --bgctr: 255, 255, 255;
+  --rd: 0px;
+  --alpha-bg: 1;
+  --alpha-bgctr: 0;
+  --alpha-brd: 1;
+  --boxShadowToggleOn-shd: none;
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  --shc-mutated-brightness: 128, 128, 128;
+  position: sticky !important;
+  top: var(--wix-ads-height);
+  margin: 0 auto;
+  width: 100%;
+  min-width: 0;
+  padding-top: 40px;
+  background-color: var(
+    --screenwidth-corvid-background-color,
+    rgba(var(--bg, var(--color_11, color_11)), var(--alpha-bg, 1))
+  );
+  border-bottom: var(--brwb, 0) solid
+    var(
+      --screenwidth-corvid-border-color,
+      rgba(var(--brd, var(--color_15, color_15)), var(--alpha-brd, 1))
+    );
+  border-top: var(--brwt, 0) solid
+    var(
+      --screenwidth-corvid-border-color,
+      rgba(var(--brd, var(--color_15, color_15)), var(--alpha-brd, 1))
+    );
+  box-shadow: var(--shd, 0 0 5px rgba(0, 0, 0, 0.7));
+  z-index: 50;
+}
+
+[id='SITE_HEADER'] > [id='comp-kt8ru4l5'] {
+  position: relative;
+  margin: 0px 0 0px 0;
+  grid-area: 5 / 1 / 6 / 2;
+  justify-self: stretch;
+  align-self: start;
+}
+
+#comp-kt8ru4l5 {
+  --lnw: 3px;
+  --brd: var(--color_14);
+  --alpha-brd: 0.51;
+}
+
+#comp-kt8ru4l5 {
+  width: 100%;
+  left: 0;
+  margin-left: 0;
+  min-width: initial;
+  height: 3px;
+}
+
+#comp-kt8ru4l5 {
+  transform-origin: center 1.5px;
+}
+
+.horizontal-line {
+  border-top: var(--lnw, 2px) solid rgba(var(--brd, var(--color_15, color_15)), var(--alpha-brd, 1));
+  box-sizing: border-box;
+  height: 0;
+}
+</style>
