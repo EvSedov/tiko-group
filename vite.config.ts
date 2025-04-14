@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://evsedov.github.io/tiko-group/',
+  base: '/tiko-group/',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
