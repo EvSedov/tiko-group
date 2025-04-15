@@ -383,7 +383,7 @@ body.blockSiteScrolling:not(.responsive) #WIX_ADS {
   margin: 0 auto;
   min-height: 100%;
   position: relative;
-  top: var(--wix-ads-height);
+  top: var(--ads-height);
 }
 
 #site-root img:not([src]) {
@@ -1404,10 +1404,10 @@ body.device-mobile-optimized .xU8fqS .G5K6X8 {
 }
 
 .BmZ5pC {
-  min-height: calc(100vh - var(--wix-ads-height));
+  min-height: calc(100vh - var(--ads-height));
   min-width: var(--site-width);
   position: var(--bg-position);
-  top: var(--wix-ads-height);
+  top: var(--ads-height);
 }
 
 .BmZ5pC,
@@ -2598,9 +2598,9 @@ body.device-mobile-optimized .WzbAF8 .mpGTIt {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  height: calc(100% - var(--wix-ads-height));
+  height: calc(100% - var(--ads-height));
   left: 0;
-  margin-top: var(--wix-ads-height);
+  margin-top: var(--ads-height);
   position: fixed;
   top: 0;
   width: 100%;
@@ -6630,7 +6630,7 @@ wix-media-canvas {
   --font_8: normal normal normal 14px/1.3em 'open sans', sans-serif;
   --font_9: normal normal normal 12px/1.3em 'open sans', sans-serif;
   --font_10: normal normal normal 11px/1.3em 'open sans', sans-serif;
-  --wix-ads-height: 0px;
+  --ads-height: 0px;
   --sticky-offset: 0px;
   --wix-ads-top-height: 0px;
   --site-width: 980px;

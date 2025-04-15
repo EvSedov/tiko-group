@@ -42,7 +42,7 @@ import TikoOrder from './TikoOrder.vue'
   --bg-gradient: none;
   --shc-mutated-brightness: 128, 128, 128;
   position: sticky !important;
-  top: var(--wix-ads-height);
+  top: var(--ads-height);
   margin: 0 auto;
   width: 100%;
   min-width: 0;
@@ -67,7 +67,7 @@ import TikoOrder from './TikoOrder.vue'
 
 [id='SITE_HEADER'] > [id='comp-kt8ru4l5'] {
   position: relative;
-  margin: 20px 0;
+  margin: 14px 0 6px;
 }
 
 #comp-kt8ru4l5 {
