@@ -116,60 +116,6 @@
                         бригады выполняющие общестроительные работы.
                       </span>
                     </p>
-
-                    <p class="font_8" style="font-size: 15px; text-align: center">
-                      <span style="font-size: 15px" class=""
-                        ><span
-                          style="
-                            font-family:
-                              open sans,
-                              sans-serif;
-                          "
-                          class=""
-                          ><span style="color: #ffffff" class=""
-                            ><span class="wixGuard">​</span></span
-                          ></span
-                        ></span
-                      >
-                    </p>
-
-                    <p class="font_8" style="font-size: 15px; text-align: center">
-                      <span style="font-size: 15px" class=""
-                        ><span
-                          style="
-                            font-family:
-                              open sans,
-                              sans-serif;
-                          "
-                          class=""
-                          ><span style="color: #ffffff" class="">А ещё...</span></span
-                        ></span
-                      >
-                    </p>
-                  </div>
-                  <!--/$--><!--$-->
-                  <div
-                    id="comp-ku28u2pk"
-                    class="HcOXKn SxM0TO QxJLC3 lq2cno YQcXTT comp-ku28u2pk wixui-rich-text"
-                    data-testid="richTextElement"
-                    ariaAttributes="[object Object]"
-                  >
-                    <p class="font_8" style="font-size: 15px; text-align: center">
-                      <span style="font-size: 15px" class=""
-                        ><span
-                          style="
-                            font-family:
-                              open sans,
-                              sans-serif;
-                          "
-                          class=""
-                          ><span style="color: #ffffff" class=""
-                            >Мы - компания занимающаяся оперативной поставкой расходных материалов
-                            на строительные объекты города Новосибирск.</span
-                          ></span
-                        ></span
-                      >
-                    </p>
                   </div>
                   <!--/$--><!--$-->
                   <div class="comp-ku28u2pr FubTgk" id="comp-ku28u2pr" aria-disabled="false">
@@ -232,3 +178,61 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] {
+  position: static;
+  display: grid;
+  height: auto;
+  width: 100%;
+  min-height: 661px;
+  grid-template-rows: repeat(3, min-content) 1fr;
+  grid-template-columns: 100%;
+}
+
+[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2p3'] {
+  position: relative;
+  margin: calc((100% - 392px) * 0.5) 0px 52px calc((100% - 392px) * 0.5);
+  left: 43px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2pc'] {
+  position: relative;
+  margin: 0px 0px 42px calc((100% - 392px) * 0.5);
+  left: 43px;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2pk'] {
+  position: relative;
+  margin: 0px 0px 49px calc((100% - 392px) * 0.5);
+  left: 43px;
+  grid-area: 3 / 1 / 4 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2pr'] {
+  position: relative;
+  margin: 0px 0px 10px calc((100% - 392px) * 0.5);
+  left: 126px;
+  grid-area: 4 / 1 / 5 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+#comp-ku28u2p3 {
+  width: 302px;
+  height: auto;
+}
+
+#comp-ku28u2pc {
+  width: 302px;
+  height: auto;
+}
+</style>
