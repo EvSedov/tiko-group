@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import AboutCompany from './components/AboutCompany.vue'
 import BackgroundGroup from './components/BackgroundGroup.vue'
-import Certificates from './components/Certificates.vue'
 import FeedbackForm from './components/FeedbackForm.vue'
 import Gallery from './components/Gallery.vue'
-import Materials from './components/Materials.vue'
+import Materials from './components/TikoMaterials.vue'
 import ScrollToBottom from './components/ScrollToBottom.vue'
 import ScrollToTop from './components/ScrollToTop.vue'
 import TikoTeam from './components/TikoTeam.vue'
@@ -47,7 +46,6 @@ import TikoHeader from './components/TikoHeader.vue'
       <ScrollToTop />
       <BackgroundGroup />
       <div id="site-root" class="overflow-clip-in-mobile site-root">
-        <!--$-->
         <div
           id="masterPage"
           class="mesh-layout overflow-x-clip-in-mobile masterPage css-editing-scope"
