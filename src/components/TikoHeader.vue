@@ -94,7 +94,7 @@ import TikoOrder from './TikoOrder.vue'
 [data-mesh-id='SITE_HEADERinlineContent-gridContainer'] {
   position: static;
   display: grid;
-  grid-template-columns: 250px 1fr 180px;
+  grid-template-columns: 260px 1fr 180px;
   grid-template-rows: 100%;
   justify-items: center;
   align-items: center;

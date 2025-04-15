@@ -86,7 +86,7 @@
                             sans-serif;
                           font-size: 44px;
                           color: #ffffff;
-                          font-weight: medium;
+                          font-weight: 500;
                         "
                       >
                         О нас

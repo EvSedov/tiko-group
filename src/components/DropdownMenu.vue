@@ -107,7 +107,7 @@
           >
             <div class="yRj2ms">
               <div class="">
-                <p class="JS76Uv" id="comp-ksk3vij43label">Контакты</p>
+                <p class="JS76Uv" id="comp-ksk3vij43label">Наша команда</p>
               </div>
             </div>
           </a>
@@ -124,7 +124,7 @@
           <div data-testid="linkElement" class="UiHgGh" tabindex="0" aria-haspopup="true">
             <div class="yRj2ms">
               <div class="">
-                <p class="JS76Uv" id="comp-ksk3vij4__more__label">More</p>
+                <p class="JS76Uv" id="comp-ksk3vij4__more__label">Оформить заказ</p>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@
   --bgDrop: var(--color_15);
   --rd: 0px;
   --shd: 0 1px 4px rgba(0, 0, 0, 0.6);
-  --fnt: normal normal normal 2.8em 'open sans', sans-serif;
+  --fnt: normal normal normal 2em 'open sans', sans-serif;
   --pad: 5px;
   --txt: var(--color_15);
   --alpha-txt: 1;
@@ -258,6 +258,7 @@
   cursor: pointer;
   display: var(--display);
   font: var(--fnt, var(--font_1));
+  font-weight: 600;
 }
 
 .XwCBRN .h3jCPd {

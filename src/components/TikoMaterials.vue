@@ -67,23 +67,23 @@ const materialsPart2 = [
           data-testid="richTextElement"
           ariaAttributes="[object Object]"
         >
-          <p class="font_8" style="font-size: 22px; line-height: 1.2em">
-            <span style="letter-spacing: normal" class=""
-              ><span style="font-size: 22px" class=""
-                ><span class="color_15"
-                  ><span
-                    style="
-                      font-family:
-                        open sans,
-                        sans-serif;
-                    "
-                    class=""
-                    >Компания ООО &ldquo;ТИКО Групп&rdquo; специализируется на снабжении
-                    строительных объектов такими материалами как:</span
-                  ></span
-                ></span
-              ></span
-            >
+          <p
+            class="font_8"
+            style="
+              font-size: 22px;
+              line-height: 1.2em;
+              font-family:
+                open sans,
+                sans-serif;
+              font-weight: 600;
+              letter-spacing: normal;
+              text-align: center;
+            "
+          >
+            <span class="color_15">
+              Компания ООО &ldquo;ТИКО Групп&rdquo; специализируется на снабжении строительных
+              объектов такими материалами как:
+            </span>
           </p>
 
           <p class="font_8 color_15" style="font-size: 14px; line-height: 1.2em">
