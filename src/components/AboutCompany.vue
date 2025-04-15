@@ -122,7 +122,7 @@
                   <div class="comp-ku28u2pr FubTgk" id="comp-ku28u2pr" aria-disabled="false">
                     <a
                       data-testid="linkElement"
-                      href="https://9213d741-5e70-425b-b2d6-d9b8c44cbb87.filesusr.com/ugd/3ee397_208d87937ffd471f9fe9f087cb3efd89.pdf"
+                      href="/docs/3ee397_208d87937ffd471f9fe9f087cb3efd89.pdf"
                       target="_blank"
                       class="uDW_Qe wixui-button PlZyDq"
                       aria-disabled="false"
