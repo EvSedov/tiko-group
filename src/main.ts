@@ -1,4 +1,5 @@
 import './assets/main.css'
+import '@splidejs/vue-splide/css/skyblue'
 
 import { createApp } from 'vue'
 import App from './App.vue'

@@ -32,7 +32,7 @@
           aria-label="Slide show gallery"
           class="Qw1FJM comp-ku28u2gg wixui-gallery"
         >
-          <div class="CKet9C">
+          <!--<div class="CKet9C">
             <div
               class="OzzSou fjCiLz wixui-gallery__item"
               data-testid="gallery-item-ghost"
@@ -62,7 +62,7 @@
                         data-bg-effect-name=""
                         data-has-ssr-src="true"
                         ><img
-                          src="https://static.wixstatic.com/media/3ee397_2df54979974e4eeca31102a580247ab2~mv2.jpg/v1/fill/w_147,h_67,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3ee397_2df54979974e4eeca31102a580247ab2~mv2.jpg"
+                          src="../assets/images/gallery/3ee397_6c7c468688e046e9b3b9bd0a374b1d9e~mv2.jpg"
                           alt=""
                           style="
                             width: 100%;
@@ -115,7 +115,7 @@
                         data-bg-effect-name=""
                         data-has-ssr-src="true"
                         ><img
-                          src="https://static.wixstatic.com/media/3ee397_20dcf05d2b93486f9254d66dd117ec4d~mv2.jpg/v1/fill/w_147,h_67,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3ee397_20dcf05d2b93486f9254d66dd117ec4d~mv2.jpg"
+                          src="../assets/images/gallery/3ee397_6c7c468688e046e9b3b9bd0a374b1d9e~mv2.jpg"
                           alt=""
                           style="
                             width: 100%;
@@ -168,7 +168,7 @@
                         data-bg-effect-name=""
                         data-has-ssr-src="true"
                         ><img
-                          src="https://static.wixstatic.com/media/3ee397_6c7c468688e046e9b3b9bd0a374b1d9e~mv2.jpg/v1/fill/w_147,h_67,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3ee397_6c7c468688e046e9b3b9bd0a374b1d9e~mv2.jpg"
+                          src="../assets/images/gallery/3ee397_6c7c468688e046e9b3b9bd0a374b1d9e~mv2.jpg"
                           alt=""
                           style="
                             width: 100%;
@@ -192,8 +192,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <nav class="dfLxYI" data-testid="gallery-navButtons">
+          </div>-->
+          <!--<nav class="dfLxYI" data-testid="gallery-navButtons">
             <button class="Vf4Ttg dUw13L" data-testid="gallery-prevButton" type="button">
               <span
                 data-testid="gallery-prevButtonInner"
@@ -207,7 +207,8 @@
                 aria-hidden="true"
               ></span>
             </button>
-          </nav>
+          </nav>-->
+          <!---->
           <div data-testid="slide-show-gallery-items" class="OSqXnG" aria-live="polite">
             <div
               class="OzzSou fjCiLz wixui-gallery__item"
@@ -230,15 +231,16 @@
                 >
                   <div class="QHedyk">
                     <div class="bFwpWf">
-                      <wow-image
+                      <div
                         id="img_undefined"
                         class="HlRz5e Un1hLM"
                         data-image-info='{"displayMode":"fill","isLQIP":true,"encoding":"AVIF","imageData":{"width":1285,"height":587,"uri":"3ee397_2df54979974e4eeca31102a580247ab2~mv2.jpg","name":"","displayMode":"fill"}}'
                         data-motion-part="BG_IMG undefined"
                         data-bg-effect-name=""
                         data-has-ssr-src="true"
-                        ><img
-                          src="https://static.wixstatic.com/media/3ee397_2df54979974e4eeca31102a580247ab2~mv2.jpg/v1/fill/w_147,h_67,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3ee397_2df54979974e4eeca31102a580247ab2~mv2.jpg"
+                      >
+                        <img
+                          src="../assets/images/gallery/3ee397_2df54979974e4eeca31102a580247ab2~mv2.jpg"
                           alt=""
                           style="
                             width: 100%;
@@ -246,7 +248,8 @@
                             object-fit: cover;
                             object-position: 50% 50%;
                           "
-                      /></wow-image>
+                        />
+                      </div>
                     </div>
                   </div>
                 </gallery-image-sizer>
@@ -263,12 +266,12 @@
               </div>
             </div>
           </div>
+
           <div class="NqU03H">
             <div data-testid="gallery-counter" class="m6hPYv">1/5</div>
           </div>
           <div class="GtAePi"></div>
         </div>
-        <!--/$-->
       </div>
     </div>
   </section>

@@ -2,7 +2,8 @@
 import AboutCompany from './components/AboutCompany.vue'
 import BackgroundGroup from './components/BackgroundGroup.vue'
 import FeedbackForm from './components/FeedbackForm.vue'
-import Gallery from './components/Gallery.vue'
+import Gallery from './components/TikoGallery.vue'
+import TikoSplide from './components/TikoSplide.vue'
 import Materials from './components/TikoMaterials.vue'
 import ScrollToBottom from './components/ScrollToBottom.vue'
 import ScrollToTop from './components/ScrollToTop.vue'
@@ -62,7 +63,7 @@ import TikoHeader from './components/TikoHeader.vue'
                         data-mesh-id="Containera6zlkinlineContent-gridContainer"
                         data-testid="mesh-container-content"
                       >
-                        <Gallery />
+                        <TikoSplide />
                         <Materials />
                         <AboutCompany />
                         <TikoTeam />
