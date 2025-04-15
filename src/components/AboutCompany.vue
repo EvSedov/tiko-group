@@ -108,6 +108,7 @@
                             open sans,
                             sans-serif;
                           color: #ffffff;
+                          line-height: 24px;
                         "
                       >
                         Мы - компания занимающаяся оперативной поставкой расходных материалов на
@@ -192,8 +193,11 @@
 
 [data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2p3'] {
   position: relative;
-  margin: calc((100% - 392px) * 0.5) 0px 52px calc((100% - 392px) * 0.5);
   left: 43px;
+  margin: 0;
+  margin-left: calc((100% - 392px) * 0.5);
+  margin-top: calc((100% - 312px) * 0.5);
+  margin-bottom: 42px;
   grid-area: 1 / 1 / 2 / 2;
   justify-self: start;
   align-self: start;
