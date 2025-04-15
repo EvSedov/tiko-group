@@ -2,7 +2,6 @@
 import AboutCompany from './components/AboutCompany.vue'
 import BackgroundGroup from './components/BackgroundGroup.vue'
 import FeedbackForm from './components/FeedbackForm.vue'
-import Gallery from './components/TikoGallery.vue'
 import TikoSplide from './components/TikoSplide.vue'
 import Materials from './components/TikoMaterials.vue'
 import ScrollToBottom from './components/ScrollToBottom.vue'
