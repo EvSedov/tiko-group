@@ -65,7 +65,7 @@
               </div>
               <div data-mesh-id="comp-ku28u2o9inlineContent" data-testid="inline-content" class="">
                 <div
-                  data-mesh-id="comp-ku28u2o9inlineContent-gridContainer"
+                  data-mesh-id="comp-ku28u2o9inlineContent-flexContainer"
                   data-testid="mesh-container-content"
                 >
                   <!--$-->
@@ -181,53 +181,31 @@
 </template>
 
 <style scoped>
-[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] {
-  position: static;
-  display: grid;
+[data-mesh-id='comp-ku28u2o9inlineContent-flexContainer'] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: auto;
   width: 100%;
   min-height: 661px;
-  grid-template-rows: repeat(3, min-content) 1fr;
-  grid-template-columns: 100%;
 }
 
-[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2p3'] {
-  position: relative;
-  left: 43px;
-  margin: 0;
-  margin-left: calc((100% - 392px) * 0.5);
-  margin-top: calc((100% - 312px) * 0.5);
+[data-mesh-id='comp-ku28u2o9inlineContent-flexContainer'] > [id='comp-ku28u2p3'] {
   margin-bottom: 42px;
-  grid-area: 1 / 1 / 2 / 2;
-  justify-self: start;
-  align-self: start;
 }
 
-[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2pc'] {
-  position: relative;
-  margin: 0px 0px 42px calc((100% - 392px) * 0.5);
-  left: 43px;
-  grid-area: 2 / 1 / 3 / 2;
-  justify-self: start;
-  align-self: start;
+[data-mesh-id='comp-ku28u2o9inlineContent-flexContainer'] > [id='comp-ku28u2pc'] {
+  margin: 0px 0px 42px;
 }
 
-[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2pk'] {
-  position: relative;
-  margin: 0px 0px 49px calc((100% - 392px) * 0.5);
-  left: 43px;
-  grid-area: 3 / 1 / 4 / 2;
-  justify-self: start;
-  align-self: start;
+[data-mesh-id='comp-ku28u2o9inlineContent-flexContainer'] > [id='comp-ku28u2pk'] {
+  margin: 0px 0px 49px;
 }
 
-[data-mesh-id='comp-ku28u2o9inlineContent-gridContainer'] > [id='comp-ku28u2pr'] {
+[data-mesh-id='comp-ku28u2o9inlineContent-flexContainer'] > [id='comp-ku28u2pr'] {
   position: relative;
-  margin: 0px 0px 10px calc((100% - 392px) * 0.5);
-  left: 126px;
-  grid-area: 4 / 1 / 5 / 2;
-  justify-self: start;
-  align-self: start;
+  margin: 0px 0px 10px;
 }
 
 #comp-ku28u2p3 {

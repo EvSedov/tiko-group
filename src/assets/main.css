@@ -8577,6 +8577,9 @@ wix-media-canvas {
 [data-mesh-id='comp-ku28u2o9inlineContent'] {
   height: auto;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 [data-mesh-id='comp-ku28u2qninlineContent'] {
