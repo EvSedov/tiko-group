@@ -125,7 +125,7 @@ const { photo, fullName, job, phone, email } = defineProps({
   --boxShadowToggleOn-shd: none;
   --height: 102px;
   --width: 101px;
-  width: 30em;
+  width: 16em;
   height: auto;
 }
 
