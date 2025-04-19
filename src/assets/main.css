@@ -4208,14 +4208,6 @@ body.device-mobile-optimized .Qw1FJM .dfLxYI .Vf4Ttg {
   text-align: left;
 }
 
-.c36GfP .gwyB6z {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
 .qFjBwF {
   background: rgba(var(--brd, var(--color_15, color_15)), var(--alpha-brd, 1));
   box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, 0.6));
@@ -9191,13 +9183,6 @@ wix-media-canvas {
   height: auto;
 }
 
-#comp-louy6qp8 {
-  left: 0;
-  margin-left: 0;
-  width: 100%;
-  min-width: 0;
-}
-
 [data-mesh-id='comp-louy6qp8inlineContent'] {
   height: auto;
   width: 100%;
@@ -9851,12 +9836,6 @@ wix-media-canvas {
 
 #comp-louym767 {
   --min-height: 34px;
-}
-
-#comp-louy6qp8 {
-  --bg-overlay-color: transparent;
-  --bg-gradient: none;
-  min-width: 980px;
 }
 
 #comp-ku28u31j {

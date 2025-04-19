@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import TikoYandexMap from './TikoYandexMap.vue'
+</script>
+
 <template>
   <section
     id="comp-louy6qp8"
@@ -24,7 +28,9 @@
         data-testid="mesh-container-content"
       >
         <!--$-->
-        <div id="comp-ku28u2zi" class="c36GfP comp-ku28u2zi wixui-google-map"></div>
+        <div id="comp-ku28u2zi" class="c36GfP comp-ku28u2zi for-yandex-map">
+          <TikoYandexMap class="gwyB6z" />
+        </div>
         <!--/$--><!--$-->
         <div id="comp-ku28u30s" class="bkIuWA comp-ku28u30s">
           <div data-mesh-id="comp-ku28u30sinlineContent" data-testid="inline-content" class="">
@@ -173,3 +179,23 @@
     </div>
   </section>
 </template>
+
+<style lang="css" scoped>
+#comp-louy6qp8 {
+  left: 0;
+  margin: 44px 0;
+  width: 100%;
+  min-width: 0;
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  min-width: 980px;
+}
+
+.c36GfP .gwyB6z {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+</style>
