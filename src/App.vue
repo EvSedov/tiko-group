@@ -9,6 +9,7 @@ import ScrollToTop from './components/ScrollToTop.vue'
 import TikoTeam from './components/TikoTeam.vue'
 import TikoFooter from './components/TikoFooter.vue'
 import TikoHeader from './components/TikoHeader.vue'
+import TikoYandexMap from './components/TikoYandexMap.vue'
 
 // const bodyCacheable = true
 // const exclusionReason = { shouldRender: true, forced: false }
@@ -68,6 +69,7 @@ import TikoHeader from './components/TikoHeader.vue'
                         <TikoTeam />
                         <FeedbackForm />
                       </div>
+                      <TikoYandexMap />
                     </div>
                   </div>
                 </div>
