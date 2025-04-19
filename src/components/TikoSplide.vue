@@ -35,6 +35,12 @@ import { Splide, SplideSlide } from '@splidejs/vue-splide'
         alt="Слайд с электродами ESAB"
       />
     </SplideSlide>
+    <SplideSlide>
+      <img
+        src="../assets/images/gallery/20250419at221911_78762fb4.jpg"
+        alt="Слайд с инструментами новый"
+      />
+    </SplideSlide>
   </Splide>
 </template>
 
