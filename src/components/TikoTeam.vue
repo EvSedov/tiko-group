@@ -90,15 +90,17 @@ const team = [
                 </h2>
               </div>
               <div id="comp-ku28ueer">
-                <TikoTeamMember
-                  v-for="people in team"
-                  :key="`${people.photo}-${people.fullName}`"
-                  :photo="people.photo"
-                  :full-name="people.fullName"
-                  :job="people.job"
-                  :phone="people.phone"
-                  :email="people.email"
-                />
+                <div class="flex-wrap">
+                  <TikoTeamMember
+                    v-for="people in team"
+                    :key="`${people.photo}-${people.fullName}`"
+                    :photo="people.photo"
+                    :full-name="people.fullName"
+                    :job="people.job"
+                    :phone="people.phone"
+                    :email="people.email"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -148,18 +150,24 @@ const team = [
 
 [data-mesh-id='comp-ku28u2u7inlineContent-gridContainer'] > [id='comp-ku28u2ug'] {
   grid-area: 1 / 2 / 2 / 3;
-  justify-self: start;
+  justify-self: center;
   align-self: start;
 }
 
 [data-mesh-id='comp-ku28u2u7inlineContent-gridContainer'] > [id='comp-ku28ueer'] {
-  grid-area: 2 / 2 / 3 / 4;
+  margin: 0 50px;
+  width: calc(100% - 100px);
+  grid-area: 2 / 1 / 3 / 4;
   justify-self: start;
-  align-self: stretch;
+  align-self: baseline;
+}
+
+.flex-wrap {
+  width: 100%;
   display: flex;
+  gap: 8rem;
   flex-wrap: wrap;
-  gap: 2em;
-  justify-content: space-around;
+  justify-content: center;
   align-items: baseline;
 }
 </style>
