@@ -109,7 +109,7 @@ const { photo, fullName, job, phone, email } = defineProps({
 }
 
 #comp-ku28u2xi {
-  width: 164px;
+  width: 200px;
   height: auto;
 }
 
@@ -126,7 +126,7 @@ const { photo, fullName, job, phone, email } = defineProps({
   --height: 102px;
   --width: 101px;
   width: 220px;
-  height: auto;
+  height: 294px;
 }
 
 .mGoGm2 {
@@ -138,7 +138,7 @@ const { photo, fullName, job, phone, email } = defineProps({
 .dWLwCn .mGoGm2 {
   background-color: rgba(var(--brd, var(--color_11, color_11)), var(--alpha-brd, 1));
   border-color: rgba(var(--brd, var(--color_11, color_11)), var(--alpha-brd, 1));
-  border-radius: 5px;
+  border-radius: 8px;
   border-style: solid;
   border-width: var(--brw, 2px);
   box-shadow: var(--shd, 0 1px 3px rgba(0, 0, 0, 0.5));
