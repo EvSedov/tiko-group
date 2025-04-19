@@ -33,7 +33,7 @@
           <span class="mHZSwn">О нас</span>
         </div>
         <!--$-->
-        <section id="comp-ku28u2ke" class="comp-ku28u2ke CohWsy wixui-column-strip">
+        <section id="comp-ku28u2ke" class="comp-ku28u2ke CohWsy">
           <div
             id="bgLayers_comp-ku28u2ke"
             data-hook="bgLayers"
@@ -49,7 +49,7 @@
           </div>
           <div data-testid="columns" class="V5AUxf">
             <!--$-->
-            <div id="comp-ku28u2o9" class="comp-ku28u2o9 YzqVVZ wixui-column-strip__column">
+            <div id="comp-ku28u2o9" class="comp-ku28u2o9 YzqVVZ">
               <div
                 id="bgLayers_comp-ku28u2o9"
                 data-hook="bgLayers"
@@ -135,7 +135,7 @@
               </div>
             </div>
             <!--/$--><!--$-->
-            <div id="comp-ku28u2qn" class="comp-ku28u2qn YzqVVZ wixui-column-strip__column">
+            <div id="comp-ku28u2qn" class="comp-ku28u2qn YzqVVZ">
               <div
                 id="bgLayers_comp-ku28u2qn"
                 data-hook="bgLayers"

@@ -24,7 +24,7 @@
         data-testid="mesh-container-content"
       >
         <!--$-->
-        <section id="comp-ku28u2qv" class="comp-ku28u2qv CohWsy wixui-column-strip">
+        <section id="comp-ku28u2qv" class="comp-ku28u2qv CohWsy">
           <div
             id="bgLayers_comp-ku28u2qv"
             data-hook="bgLayers"
@@ -40,7 +40,7 @@
           </div>
           <div data-testid="columns" class="V5AUxf">
             <!--$-->
-            <div id="comp-ku28u2r2" class="comp-ku28u2r2 YzqVVZ wixui-column-strip__column">
+            <div id="comp-ku28u2r2" class="comp-ku28u2r2 YzqVVZ">
               <div
                 id="bgLayers_comp-ku28u2r2"
                 data-hook="bgLayers"
@@ -116,7 +116,7 @@
         data-testid="mesh-container-content"
       >
         <!--$-->
-        <section id="comp-ku28u2rh" class="comp-ku28u2rh CohWsy wixui-column-strip">
+        <section id="comp-ku28u2rh" class="comp-ku28u2rh CohWsy">
           <div
             id="bgLayers_comp-ku28u2rh"
             data-hook="bgLayers"
@@ -132,7 +132,7 @@
           </div>
           <div data-testid="columns" class="V5AUxf">
             <!--$-->
-            <div id="comp-ku28u2ro" class="comp-ku28u2ro YzqVVZ wixui-column-strip__column">
+            <div id="comp-ku28u2ro" class="comp-ku28u2ro YzqVVZ">
               <div
                 id="bgLayers_comp-ku28u2ro"
                 data-hook="bgLayers"
