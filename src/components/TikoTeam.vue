@@ -165,7 +165,7 @@ const team = [
 .flex-wrap {
   width: 100%;
   display: flex;
-  gap: 0.4em;
+  gap: 4px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
