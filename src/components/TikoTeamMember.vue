@@ -27,7 +27,7 @@ const { photo, fullName, job, phone, email } = defineProps({
         v-for="(data, index) in fullName"
         :key="`${index}-${data}`"
         class="font_0"
-        style="font-size: 18px; line-height: 0.8em; text-align: center"
+        style="font-size: 24px; line-height: 0.8em; text-align: center"
       >
         <span
           style="
@@ -36,7 +36,7 @@ const { photo, fullName, job, phone, email } = defineProps({
               open sans,
               sans-serif;
             color: #0f0f0f;
-            font-weight: normal;
+            font-weight: 600;
           "
         >
           {{ data }}
@@ -50,7 +50,7 @@ const { photo, fullName, job, phone, email } = defineProps({
       data-testid="richTextElement"
       ariaAttributes="[object Object]"
     >
-      <h3 class="font_0" style="font-size: 14px; line-height: 0.8em; text-align: center">
+      <h3 class="font_0" style="font-size: 14px; line-height: 1.2em; text-align: center">
         <span
           style="
             font-size: 14px;
@@ -58,7 +58,7 @@ const { photo, fullName, job, phone, email } = defineProps({
               open sans,
               sans-serif;
             color: #0f0f0f;
-            font-weight: normal;
+            font-weight: 500;
           "
           >{{ job }}</span
         >
@@ -71,24 +71,25 @@ const { photo, fullName, job, phone, email } = defineProps({
       data-testid="richTextElement"
       ariaAttributes="[object Object]"
     >
-      <p class="font_8" style="font-size: 14px; line-height: 1.3em; text-align: center">
-        <span style="font-size: 14px" class=""
-          ><span style="color: #000000" class=""
-            ><span
-              style="font-family: helvetica-w01-light, helvetica-w02-light, sans-serif"
-              class=""
-              >{{ phone }}</span
-            ></span
-          ></span
+      <p class="font_8" style="font-size: 14px; line-height: 1.4em; text-align: center">
+        <span
+          style="
+            color: #000000;
+            font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+            font-weight: 600;
+          "
         >
+          {{ phone }}
+        </span>
       </p>
 
-      <p class="font_8" style="font-size: 14px; line-height: 1.3em; text-align: center">
+      <p class="font_8" style="font-size: 14px; line-height: 1.2em; text-align: center">
         <span
           style="
             font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
             font-size: 14px;
             color: #000000;
+            font-weight: 600;
           "
         >
           <a data-auto-recognition="true" :href="`mailto:${email}`" class="">{{ email }}</a>

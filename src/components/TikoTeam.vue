@@ -5,8 +5,8 @@ const team = [
     photo: new URL('../assets/images/team/ksenia_kontieva.jpg', import.meta.url).href,
     fullName: ['Контиева', 'Ксения'],
     job: 'Управляющий',
-    phone: '+7 913 740-03-63',
-    email: '89137400363@MAIL.RU',
+    // phone: '+7 913 740-03-63',
+    // email: '89137400363@MAIL.RU',
   },
   {
     photo: new URL('../assets/images/team/mikhail_kontiev.jpg', import.meta.url).href,
@@ -18,14 +18,14 @@ const team = [
   {
     photo: new URL('../assets/images/team/kirill_viklushin.jpg', import.meta.url).href,
     fullName: ['Виклушкин', 'Кирилл'],
-    job: 'Менеджер продаж',
+    job: 'Менеджер отдела продаж',
     // phone: '+7 913 740-03-63',
     // email: '89137400363@MAIL.RU',
   },
   {
     photo: new URL('../assets/images/team/rodion_german.jpg', import.meta.url).href,
     fullName: ['Герман', 'Родион'],
-    job: 'Менеджер продаж',
+    job: 'Менеджер отдела продаж',
     // phone: '+7 913 740-03-63',
     // email: '89137400363@MAIL.RU',
   },
